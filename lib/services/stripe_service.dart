@@ -4,8 +4,8 @@ import "package:http/http.dart" as http;
 import "package:stripe_checkout/stripe_checkout.dart";
 
 class StripeService {
-  final String _secretKey = "sk_test_51Q6ytDC4fIPQzkOE4wVVdh2EymfaKppA2vrNdpZiXv3jJsx4S7CH22GAWBxljbUiH9Ss0EiQMRii3WSxEytUYWVp00N8kjtZXu";
-  final String _publishableKey = "pk_test_51Q6ytDC4fIPQzkOENpT2wXPZPkH3j0EtN0vLs2Qjsu4OKNV6AUYYN0gPgz9vCkL3H6K1ZQsFKmLcGSeSjxvUlPiA00mGW0xuht";
+  final String _secretKey = "YourApiKey";
+  final String _publishableKey = "YourApiKey";
 
   Future<dynamic> createCheckoutSession(
     int userId,
